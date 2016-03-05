@@ -1,0 +1,19 @@
+body{  
+  background: lightgrey;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-left: 50px;
+}
+
+h3 {
+  border: 1px solid orangered;
+}
+
+h4 {
+  opacity: 0.3;
+}
