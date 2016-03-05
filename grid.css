@@ -1,0 +1,13 @@
+.one-third {
+  width: 33%;
+  display: inline-block;
+  float: left;
+  background: lightblue;
+}
+
+.two-thirds {
+  width: 67%;
+  display: inline-block;
+  float: left;
+  background: lightgrey;
+}
