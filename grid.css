@@ -1,4 +1,9 @@
+body {
+  height: 100%;
+}
+
 .one-third {
+  height: 100%;
   width: 33%;
   display: inline-block;
   float: left;
@@ -7,6 +12,7 @@
 
 .two-thirds {
   width: 67%;
+  height: 100%;
   display: inline-block;
   float: left;
   background: lightgrey;
