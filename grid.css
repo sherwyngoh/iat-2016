@@ -40,3 +40,24 @@ section {
   margin: 20px auto;
   display: block;
 }
+
+#name {
+  width: 80%;
+  margin: 20px auto;
+}
+
+#about-me {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 15px;
+  border: 2px solid white;
+}
+
+h2 {
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-weight: normal;
+}
