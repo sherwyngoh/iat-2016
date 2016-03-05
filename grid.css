@@ -53,6 +53,11 @@ section {
   border: 2px solid white;
 }
 
+#about-me span {
+  width: 150px;
+  display: inline-block;
+}
+
 h2 {
   border-bottom: 2px solid white;
   padding-bottom: 10px;
