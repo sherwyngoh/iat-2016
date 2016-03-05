@@ -7,7 +7,8 @@ body {
   width: 33%;
   display: inline-block;
   float: left;
-  background: lightblue;
+  background: #0099e5;
+  color: white;
 }
 
 .two-thirds {
@@ -15,5 +16,21 @@ body {
   height: 100%;
   display: inline-block;
   float: left;
-  background: lightgrey;
+}
+
+section {
+  height: 33.3%;
+  color: white;
+}
+
+#who {
+  background: #ff4c4c;
+}
+
+#videos {
+  background: #34bf49;
+}
+
+#build {
+  background: #f47721;
 }
