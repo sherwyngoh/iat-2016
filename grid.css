@@ -34,3 +34,9 @@ section {
 #build {
   background: #f47721;
 }
+
+#profile-picture {
+  max-width: 60%;
+  margin: 20px auto;
+  display: block;
+}
