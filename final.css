@@ -1,0 +1,128 @@
+body {
+  background-image: url('bg.jpeg');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-family: "Raleway";
+}
+
+.box h1 {
+  font-weight: normal;
+  text-align: right;
+  padding-right: 20px;
+  font-family: "Anke";
+  margin-bottom: 0px;
+}
+
+.box h3 {
+  border-bottom: 3px solid #222;
+  text-align: right;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.skills  {
+  text-align: right;
+  position: absolute;
+  bottom: 10px;
+}
+
+.skills h4 {
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.skills img {
+  height: 30px;
+  width: 30px;
+  margin: 20px;
+}
+
+.box {
+  height: 300px;
+  width: 500px;
+  background: white;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 80%;
+  top: 70%;
+}
+
+.innerbox {
+  border: 4px solid #222;
+  margin: 20px;
+  height: 250px;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 25px;
+  right: 20px;
+  font-size: 30px;
+  background: #222;
+  text-align: center;
+  color: white;
+}
+
+.circle span {
+  margin-top: 10px;
+  display: block;
+  font-family: "Bebas Neue"
+}
+
+.social {
+  text-align: right;
+}
+
+.social i{
+  display: inline-block;
+  margin: 10px 20px;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+i:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
+.bubble-container {
+  position: absolute;
+  left: 56%;
+  top: 20%;
+}
+
+
+.bubble {
+  width: 250px;
+  height: 60px;
+  padding: 0px;
+  background: #FFFFFF;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.bubble:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 15px 15px 15px 0;
+  border-color: transparent #FFFFFF;
+  display: block;
+  width: 0;
+  z-index: 1;
+  left: -13px;
+  top: 17px;
+}
+
+.bubble div {
+  padding-top: 20px;
+  font-family: monospace;
+  font-size: 15px;
+}
